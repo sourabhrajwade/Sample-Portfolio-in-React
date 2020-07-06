@@ -1,0 +1,21 @@
+.pic {
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-in;
+    margin-top: 40px;
+
+}
+.pic img {
+    width: 10%;
+    border-radius: 50%;
+    border: 1vh solid rgb(236, 232, 232);
+}
+.pic img:hover {
+    transform: scale(1.2);
+    border: 0.5vh solid rgba(152, 13, 245, 0.562);
+}
